@@ -16,6 +16,7 @@ pass : Platzhalter für zukünftigen Code, so vermeiden wir, dass wir einen Fehl
 constructor : baut uns alles
 self : repräsentiert die Instanz der Klasse
        kann auf Attribute und Methoden der Klasse zugreifen
+elif : if...elif..else 
 def : Schlüsselwort für eine Funktion
 """
 
@@ -92,7 +93,7 @@ if __name__ == '__main__':
         try:
              # die Eingabe muss in eine integer umgewandelt werden, weil wir eine Zahl von 0-8 enpfangen müssen
              cell = int(input("Wo möchtest du dein Zeichen platzieren? [1-9]"))
-        except ValueError: 
+        except ValueError:
             continue
         cell = cell - 1
         if cell < 0 or cell > 8: # Wenn die Eingabe nicht dem Entsprich gibt es einfach die *Frage* nochmals aus
