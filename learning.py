@@ -18,8 +18,8 @@ print("\n")
 # separading word for a variable with _
 # for a number i dont need "", only when i make a String
 
-person_name = "Lynn"
-person_age = 20
+person_name = "Lynn" #string
+person_age = "20"
 person_country = "Italy"
 is_Female = True #boolean
 
