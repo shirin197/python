@@ -25,12 +25,40 @@ is_Female = True #boolean
 
 print("Hello there, my name is " + person_name + ", ")
 print("i am " + person_age + " and from " + person_country + " ")
-#its possible to change the name in the half of the story, i updated my variable insid eof the programm
+#its possible to change the name in the half of the story, i updated my variable inside of the programm
 person_name = "Phoebe"
 print("I really like my name " + person_name + ", ")
 print("but i didn't like being " + person_age + ".")
 
 print("\n")
+
+#string
+print("formula1")
+#or
+word = "formula1"
+print(word)
+print(word + " is a nice Sport") #i can add another String
+
+print("\n")
+
+#Functions
+word = "Python"
+       #012345 -> positions in the string
+       # word = "Python is nice" is also a string
+       # list of functions -> https://www.w3schools.com/python/python_ref_functions.asp
+
+print(word.lower()) #lower put all letters in Lower case letters
+print(word.upper()) #upper put all letters in UPPER case letters
+print(word.isupper()) # control (in this case) the String is entirely in Uppercase /true or false print /
+print(word.upper().isupper()) # (word.upper() runs first then (put everything in uppercase then control with isupper()
+print(len(word)) # print whats the lengtn of the string ( python = 6)
+print(word[0]) #print(word[index of the charakter i want]) string start wth 0
+print(word.index("h")) # retun us the index of our specific letter(capitol) inside of the string
+print(word.index("thon")) # shows me where this starts (here 2 bc. thats where "thon" starts
+print(word.replace("Python", "Java")) # replace specific words in the string
+
+print("\n")
+
 # if abfrage
 a = 1
 if a == 1:
@@ -45,6 +73,8 @@ summe = nummer1 + nummer2
 
 # Ausgabe der Variable Summe
 print(summe)
+
+
 
 
 
