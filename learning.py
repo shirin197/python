@@ -131,6 +131,7 @@ print(summe)
 print("\n")
 # ---------------------------------------------------------------------------------------------------------------------
 
+print("lists")
 # lists
 # lists structure a big amount of data
 # teh name of the list can describe the content in the list
@@ -149,15 +150,49 @@ print(names[1])
 print("\n")
 # ---------------------------------------------------------------------------------------------------------------------
 
+print("list functions")
 # list functions
 lucky_numbers = [4, 45, 5, 7, 19, 33]
+lucky_numbers2 = [4, 45, 5, 7, 19, 33]
 names2 = ["Alisha", "Giulia", "Dario", "Lando", "Max"]
+names2.extend(lucky_numbers) # print both lists out together
+names2.append("Noel") # addend allow me to append another item at the end of the list
+
+names3 = ["Alisha", "Giulia", "Dario", "Lando", "Max"]
+names3.insert(2, "Helena") # insert a item befor the enter index
+names3.remove("Max") # remove a item
+
+names4 = ["Alisha", "Giulia", "Dario", "Lando", "Max"]
+names4.clear() # print out a empty list
+
+names5 = ["Alisha", "Giulia", "Dario", "Lando", "Max"]
+
+names6 = ["Alisha", "Giulia", "Dario", "Dario", "Lando", "Max"]
+
+names7 = ["Alisha", "Giulia", "Dario", "Dario", "Lando", "Max"]
+names7.sort() # put the names in alphabetic order
+
 
 print(names2)
+print(names3)
+print(names4)
+print(names5.index("Giulia")) # .index tell me the index from the word
+# wehn we ask about a name that is not in the list we become an error
+print(names6.count("Dario")) # this tell me how many time the value "Dario" shows up in the list
 
+names7.sort() # put the names in alphabetic order
+print(names7)
 
+lucky_numbers.sort() # sort work with numbers too
+print(lucky_numbers)
 
+lucky_numbers2.reverse() # reverse the numbers
+print(lucky_numbers2)
 
+numberscopy = names.copy() # basically copy the list
+print(numberscopy)
+
+# ---------------------------------------------------------------------------------------------------------------------
 
 
 
