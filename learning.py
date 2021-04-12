@@ -1,7 +1,7 @@
 """
 @Nadina Shirin Amsler (shirin197)
 @2021-05-03
-still in working progess
+still in working progress
 """
 
 # Hello World
@@ -127,7 +127,55 @@ summe = nummer1 + nummer2
 
 # Ausgabe der Variable Summe
 print(summe)
+
+print("\n")
 # ---------------------------------------------------------------------------------------------------------------------
+
+# lists
+# lists structure a big amount of data
+# teh name of the list can describe the content in the list
+
+people = ["Alisha", "Giulia", "Dario", "Lando", "Max"] # values inside my array
+# we can out any informations into it -> string, number, booleans
+print(people[1]) # when we use negatives its start indexing from the back
+print(people[-1]) # teh normal index start with 0, wehn we indexing with negatives the last one has teh index -1
+print(people[2:]) # it will print all strings from index 0ne and everything after that
+print(people[2: 4]) # here we can specify arrange that you want to grab
+
+names = ["Alisha", "Giulia", "Dario", "Lando", "Max"]
+names[1] = "Hanna" # we can update a value in the array
+print(names[1])
+
+print("\n")
+# ---------------------------------------------------------------------------------------------------------------------
+
+# list functions
+lucky_numbers = [4, 45, 5, 7, 19, 33]
+names2 = ["Alisha", "Giulia", "Dario", "Lando", "Max"]
+
+print(names2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
