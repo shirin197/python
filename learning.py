@@ -152,7 +152,6 @@ print("\n")
 
 print("list functions")
 # list functions
-
 lucky_numbers = [4, 45, 5, 7, 19, 33]
 lucky_numbers2 = [4, 45, 5, 7, 19, 33]
 names2 = ["Alisha", "Giulia", "Dario", "Lando", "Max"]
@@ -193,28 +192,15 @@ print(lucky_numbers2)
 numberscopy = names.copy() # basically copy the list
 print(numberscopy)
 
-print("\n")
+#test
+
 # ---------------------------------------------------------------------------------------------------------------------
 
-print("tuples")
-# tuples
 
-coordinates = (4, 5) # tuple with coordinates
-# coordinates[1] = 10 -> error: 'tuple' object does not support item assignment
-print(coordinates[1])
 
-# list of tuples
-coordinates1 = [(4, 5), (3, 6), (74, 9)] # a list with tuples inside of it
-print(coordinates1)
 
-# tuple are used in more special situations
 
-# poeple use tuples for data that's never going to change
-print("\n")
-# ---------------------------------------------------------------------------------------------------------------------
 
-print("functions")
-# functions is a collections of code
 
 # nur um commit zu machen
 
