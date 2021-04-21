@@ -192,7 +192,7 @@ print(lucky_numbers2)
 numberscopy = names.copy() # basically copy the list
 print(numberscopy)
 
-#test
+#currently no upadte lul
 
 # ---------------------------------------------------------------------------------------------------------------------
 
