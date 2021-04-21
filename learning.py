@@ -57,16 +57,16 @@ print("\n")
 print("Function")
 #Functions
 word = "Python"
-       # 012345 -> positions in the string
+      # 012345 -> positions in the string
 # word = "Python is nice" is also a string
 # list of functions -> https://www.w3schools.com/python/python_ref_functions.asp
 
-print(word.lower()) #lower put all letters in Lower case letters
-print(word.upper()) #upper put all letters in UPPER case letters
+print(word.lower()) # lower put all letters in Lower case letters
+print(word.upper()) # upper put all letters in UPPER case letters
 print(word.isupper()) # control (in this case) the String is entirely in Uppercase /true or false print /
 print(word.upper().isupper()) # (word.upper() runs first then (put everything in uppercase then control with isupper()
 print(len(word)) # print whats the lengtn of the string ( python = 6)
-print(word[0]) #print(word[index of the charakter i want]) string start wth 0
+print(word[0]) # print(word[index of the charakter i want]) string start wth 0
 print(word.index("h")) # retun us the index of our specific letter(capitol) inside of the string
 print(word.index("thon")) # shows me where this starts (here 2 bc. thats where "thon" starts
 print(word.replace("Python", "Java")) # replace specific words in the string
@@ -201,6 +201,8 @@ print(numberscopy)
 
 
 
+
+# nur um commit zu machen
 
 
 
