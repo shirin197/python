@@ -202,13 +202,6 @@ print(numberscopy)
 
 
 
-# nur um commit zu machen
-
-
-
-
-
-
 
 
 
