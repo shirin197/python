@@ -177,7 +177,7 @@ print(names2)
 print(names3)
 print(names4)
 print(names5.index("Giulia")) # .index tell me the index from the word
-# wehn we ask about a name that is not in the list we become an error
+# when we ask about a name that is not in the list we become an error
 print(names6.count("Dario")) # this tell me how many time the value "Dario" shows up in the list
 
 names7.sort() # put the names in alphabetic order
