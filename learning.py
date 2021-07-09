@@ -194,9 +194,43 @@ print(numberscopy)
 
 # ---------------------------------------------------------------------------------------------------------------------
 
+#functions
 
 
+# Function - everything that comes after the line below is in the function
 
+def say_hi():
+# tab is necessary
+    print("Hello User")
+
+# call the function
+say_hi()
+
+# function one parameter
+# give the function informations
+def say_hi(name):
+    print("Hello " + name)
+
+# i can print out every name i passed to the function
+say_hi("Shirin")
+say_hi("Giulia")
+
+# function with parameters ( i can give as many as i want)
+def say_hi(name, age):
+    print("Hello " + name + "you are "+ age)
+
+# i can print out every name i passed to the function
+say_hi("Shirin ", "17")
+
+# you can also give integers, strings, boolean, arrays etc.
+# any type of data
+
+def say_hi(name, age):
+    print("Hello " + name + "you are "+ str(age))
+# u have to convert age into a string
+say_hi("Shirin ", 17)
+
+#---------------------------------------------------------------------------------------------------------------------
 
 
 
